@@ -3,25 +3,21 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.cloudhoist</groupId>
-    <artifactId>pallet-crates</artifactId>
-    <version>0.5.1-SNAPSHOT</version>
-    <relativePath>..</relativePath>
+    <artifactId>pallet-crate-pom</artifactId>
+    <version>0.7.0-SNAPSHOT</version>
   </parent>
+  <scm>
+    <connection>scm:git:git://github.com/pallet/rabbitmq-crate.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/pallet/rabbitmq-crate.git</developerConnection>
+    <url>https://github.com/pallet/rabbitmq-crate</url>
+  </scm>
   <artifactId>rabbitmq</artifactId>
-  <version>0.5.1-SNAPSHOT</version>
+  <version>0.7.0-SNAPSHOT</version>
 
   <dependencies>
     <dependency>
       <groupId>org.cloudhoist</groupId>
       <artifactId>iptables</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.cloudhoist</groupId>
-      <artifactId>etc-default</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.cloudhoist</groupId>
-      <artifactId>etc-hosts</artifactId>
     </dependency>
   </dependencies>
 </project>
